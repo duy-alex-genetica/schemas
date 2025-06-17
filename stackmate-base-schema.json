@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/duy-alex-genetica/schemas@main/base-schema.json",
+  "properties": {
+    "generator": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "Generator Name",
+          "description": "The name of the generator."
+        },
+        "version": {
+          "type": "string",
+          "title": "Generator Version",
+          "description": "The version of the generator."
+        },
+        "stackmateCompatibleVersion": {
+          "type": "string",
+          "title": "Stackmate Compatible Version",
+          "description": "The version of Stackmate CLI that this generator is compatible with."
+        }
+      }
+    }
+  }
+}
