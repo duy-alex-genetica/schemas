@@ -12,7 +12,7 @@
         "version": {
           "type": "string",
           "title": "Generator Version",
-          "description": "The version of the generator."
+          "description": "The version of the generator, can be a specific version or '@latest'."
         },
         "stackmateCompatibleVersion": {
           "type": "string",
